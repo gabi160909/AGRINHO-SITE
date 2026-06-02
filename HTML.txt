@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produzir Hoje, Preservar Amanhã</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+
+<nav>
+<h2>🌱 AgroForte</h2>
+
+<ul>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#dados">Dados</a></li>
+<li><a href="#quiz">Quiz</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+<h1>Produzir Hoje, Preservar Amanhã</h1>
+
+<p>
+O equilíbrio entre produção agrícola e preservação ambiental é o caminho para um futuro sustentável.
+</p>
+
+<a href="#sobre" class="botao">
+Saiba Mais
+</a>
+
+</div>
+
+</header>
+
+<section id="sobre">
+
+<h2>🌎 Sobre o Tema</h2>
+
+<p>
+A agricultura é fundamental para alimentar a população e movimentar a economia.
+Ao mesmo tempo, é necessário preservar os recursos naturais para garantir que as futuras gerações também tenham acesso a alimentos, água e qualidade de vida.
+</p>
+
+<p>
+A sustentabilidade busca justamente esse equilíbrio: produzir mais utilizando tecnologia, inovação e responsabilidade ambiental.
+</p>
+
+</section>
+
+<section id="dados">
+
+<h2>📊 Dados do Agro Brasileiro</h2>
+
+<div class="cards">
+
+<div class="card verde">
+<h3>🌽 Produção Agrícola</h3>
+
+<p>
+O Brasil está entre os maiores produtores agrícolas do mundo, destacando-se na produção de soja, milho, café e algodão.
+</p>
+
+</div>
+
+<div class="card amarelo">
+<h3>🚜 Tecnologia</h3>
+
+<p>
+Drones, sensores e GPS ajudam produtores a economizar água, reduzir desperdícios e aumentar a produtividade.
+</p>
+
+</div>
+
+<div class="card azul">
+<h3>🌳 Sustentabilidade</h3>
+
+<p>
+A preservação do solo, da água e das florestas é essencial para garantir a produção agrícola no futuro.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>💡 Curiosidades</h2>
+
+<div class="curiosidades">
+
+<p>✅ O Brasil é um dos maiores exportadores de alimentos do planeta.</p>
+
+<p>✅ A agricultura de precisão utiliza satélites e inteligência artificial.</p>
+
+<p>✅ Tecnologias modernas ajudam a produzir mais utilizando menos recursos naturais.</p>
+
+</div>
+
+</section>
+
+<section id="quiz">
+
+<h2>🎯 Quiz AgroForte</h2>
+
+<div class="quiz">
+
+<h3>1. Qual é o principal objetivo da agricultura sustentável?</h3>
+
+<button onclick="verificar(1,true)">
+Produzir alimentos preservando os recursos naturais
+</button>
+
+<button onclick="verificar(1,false)">
+Produzir sem preocupação ambiental
+</button>
+
+<button onclick="verificar(1,false)">
+Desmatar novas áreas
+</button>
+
+<h3>2. Qual tecnologia é utilizada no agronegócio moderno?</h3>
+
+<button onclick="verificar(2,false)">
+Máquina de escrever
+</button>
+
+<button onclick="verificar(2,true)">
+Drones
+</button>
+
+<button onclick="verificar(2,false)">
+Fax
+</button>
+
+<h3>3. O agronegócio é importante porque:</h3>
+
+<button onclick="verificar(3,true)">
+Produz alimentos e gera empregos
+</button>
+
+<button onclick="verificar(3,false)">
+Diminui a produção
+</button>
+
+<button onclick="verificar(3,false)">
+Acaba com a agricultura
+</button>
+
+<br><br>
+
+<button class="resultadoBtn" onclick="mostrarResultado()">
+Ver Resultado
+</button>
+
+<p id="resultado"></p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>🌱 Projeto Agrinho 2026</h3>
+
+<p>Produzir Hoje, Preservar Amanhã</p>
+
+<p>Desenvolvido por Gabriele Kauffmann</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
