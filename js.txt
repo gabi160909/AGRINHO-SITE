@@ -1,0 +1,35 @@
+let pontos = 0;
+let respondidas = [];
+
+function verificar(pergunta, correta){
+
+if(respondidas.includes(pergunta)){
+return;
+}
+
+respondidas.push(pergunta);
+
+if(correta){
+pontos++;
+}
+}
+
+function mostrarResultado(){
+
+let mensagem = "";
+
+if(pontos === 3){
+mensagem = "🌟 Especialista em Sustentabilidade! Você acertou tudo!";
+}
+else if(pontos === 2){
+mensagem = "🚜 Muito bem! Você conhece bastante sobre o tema.";
+}
+else if(pontos === 1){
+mensagem = "📚 Continue aprendendo sobre sustentabilidade.";
+}
+else{
+mensagem = "🌱 Tente novamente!";
+}
+
+document.getElementById("resultado").innerHTML = mensagem;
+}f
